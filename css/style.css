@@ -1,0 +1,371 @@
+
+/* css variables */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+ul{
+	list-style: none;
+}
+
+/******** start header area ********/
+.header-area{
+	height: 980px;
+	padding: 2rem 10rem;
+	background: url('../img/header-bg.png') no-repeat;
+	background-size: cover;
+	background-position: 50% 120%;
+}
+
+/* start navbar area */
+.navbar-area .nav-item{
+	padding-left: 1.5rem;
+}
+.navbar-area .nav-item .nav-link{
+	font: normal 500 16px/20px 'Work Sans', sans-serif;
+	letter-spacing: 1px;
+	color: #fff;
+}
+.navbar-area .nav-item .nav-link:hover{
+	color: #233148;
+	transition: all 0.3s ease;
+}
+.navbar-area .navbar-toggler{
+	outline: none;
+}
+.navbar-area .navbar-toggler .fa{
+	font-size: 32px;
+	color: #fff;
+}
+/* end navbar area */
+.header-content{
+	margin-top: 10vh;
+	text-align: center;
+}
+.header-content .title{
+	font: normal 700 50px/65px 'Work Sans', sans-serif;
+	color: #fff;
+	padding-bottom: 1rem;
+}
+.header-content .title span{
+	display: block;
+}
+.header-content .sub-title{
+	font: normal 400 17px/24px 'Work Sans', sans-serif;
+	color: #fff;
+	padding-bottom: 1rem;
+}
+.header-content .header-button{
+	padding: 2rem 0;
+}
+.header-content .button-download{
+	padding: 0.8rem 1.5rem;
+	font: normal 600 18px/24px 'Work Sans', sans-serif;
+	background: #fff;
+	color: #33d2fd;
+	text-decoration: none;
+	box-sizing: border-box;
+	margin-right: 1rem;
+	border: 1px solid #ffffff;
+}
+.header-content .button-download:hover{
+	background: transparent;
+	color: #ffffff;
+	transition: all 0.2s ease;
+}
+.header-content .button-contact{
+	padding: 0.8rem 1.5rem;
+	font: normal 600 18px/24px 'Work Sans', sans-serif;
+	background: transparent;
+	border: 1px solid #f8f8f8;
+	color: #ffffff;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+.header-content .button-contact:hover{
+	background: #ffffff;
+	border: 1px solid #f8f8f8;
+	color: #33d2fd;
+	transition: all 0.2s ease;
+}
+.header-content .header-mobile img{
+	margin: 2rem;
+}
+/******** end header area ********/
+
+/******** start about-app area ********/
+.about-app{
+	background: url('../img/about-bg.png') no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	padding: 24rem 10rem 12rem;
+	margin-top: -14rem;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+} 
+.about-app .about-box{
+	padding: 1rem 1rem;
+	width: 280px;
+	border-radius: 6px;
+	box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+/* .about-app .about-box:hover{
+	transition: all 0.2s ease;
+	transform: scale(1.01);
+} */
+.about-app .about-box img{
+	padding: 2rem;
+}
+.about-app .about-box h5.about-title{
+	font: normal 500 18px/24px 'Work Sans', sans-serif;
+	padding: 1rem;
+}
+.about-app .about-box p.para{
+	font: normal 400 16px/30px 'Work Sans', sans-serif;
+	color: #7e8099;
+}
+.about-app .about-box.one{
+	margin: -6rem 0rem 3rem 4rem;
+}
+.about-app .about-box.four{
+	margin: 6rem 0rem 0rem -4rem;
+}
+/******** end about-app area ********/
+
+/******** start about-service area ********/
+.about-service{
+	padding: 8rem 10rem;
+}
+.about-service-content{
+	padding: 1rem 4rem 0 0;
+	text-align: right;
+}
+.about-service-content .title{
+	font: normal 600 32px/45px 'Work Sans', sans-serif;
+	padding: 2rem 0;
+}
+.about-service-content .para{
+	font: normal 400 17px/30px 'Work Sans', sans-serif;
+	color: #2C394F;
+	margin-bottom: 4rem;
+}
+.about-service-content .button{
+	padding: 1rem 2rem;
+	text-decoration: none;
+	font: normal 500 18px/20px 'Work Sans', sans-serif;
+	background: #33d2fd;
+	color: #fff;
+}
+.about-service-content .button:hover{
+	background: transparent;
+	border: 1px solid #33d2fd;
+	color: #33d2fd;
+	transition: all 0.2s ease;
+}
+.service-carousel .card{
+	border-radius: 0;
+	margin-bottom: 1rem;
+	border: none;
+	box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.1);
+}
+.service-carousel .card-header{
+	background: #fff;
+	border: none;
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+.service-carousel button{
+	border: none;
+	background: transparent;
+	display: block;
+	height: 100%;
+	width: 100%;
+	border-radius: 0;
+	text-align: left;
+	outline: none !important;
+	padding: 1rem;
+	font: normal 500 17px/24px 'Work Sans', sans-serif;
+}
+.service-carousel button:hover{
+	background: #f8f8f8;
+}
+.service-carousel .card-header button img{
+	padding-right: 1rem;
+}
+.service-carousel .card-body{
+	background: #33d2fd;
+}
+.service-carousel .card-body .para{
+	font: italic 400 17px/25px 'Work Sans', sans-serif;
+	color: #fff;
+}
+/******** end about-service area ********/
+
+/******** start explain-area area ********/
+.explain-area{
+	background: url('../img/bg.png') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 4rem 10rem;
+}
+.explain-area .explain-content{
+	padding-left: 4rem;
+}
+.explain-content .title{
+	font: normal 600 32px/45px 'Work Sans', sans-serif;
+	padding: 1.5rem 0;
+}
+.explain-content ul li{
+	margin: 1rem 0;
+	font: normal 600 16px/20px 'Work Sans', sans-serif;
+}
+.explain-content ul li img{
+	margin-right: 0.5rem;
+}
+.explain-content .para{
+	font: normal 400 16px/30px 'Work Sans', sans-serif;
+	color: #2C394F;
+	padding: 2rem 0;
+}
+/******** end explain-area area ********/
+
+/******** start app-store area ********/
+.app-store{
+	background: url('../img/appstore-bg.png') no-repeat;
+	background-size: cover;
+	background-position: 50% 80%;
+	padding: 6rem 10rem;
+	position: relative;
+}
+.app-store-content .title{
+	font: normal 600 32px/45px 'Work Sans', sans-serif;
+	padding: 1.5rem 0;
+	color: #233148;
+}
+.app-store-content .para{
+	font: normal 400 16px/30px 'Work Sans', sans-serif;
+	color: #f8f8f8;
+}
+.app-store-content .store-image{
+	padding: 3rem 0;
+}
+
+/******** end app-store area ********/
+
+/******** start get-button-area area ********/
+.get-button-area .get-button .button{
+	display: block;
+	margin: auto;
+	background: linear-gradient(to bottom, #fe7270, #f8497a);
+	padding: 1rem 6rem;
+	color: #fff;
+	margin-top: -2rem;
+	text-decoration: none;
+	font: normal 600 17px/30px 'Work Sans', sans-serif;
+	box-sizing: border-box;
+	transition: all 0.4s ease;
+}
+.get-button-area .get-button .button:hover{
+	background: linear-gradient(to bottom, #f8497a, #fe7270);
+	color: #f8f8f8;
+}
+/******** end get-button-area area ********/
+
+/******** start footer area ********/
+.footer-area .footer-top{
+	padding: 4rem 10rem;
+}
+.footer-top h5.title{
+	font: normal 600 18px/26px 'Work Sans', sans-serif;
+	padding: 1rem 0;
+}
+.footer-top ul li{
+	padding: 0.2rem 0;
+}
+.footer-top ul li a{
+	color: #2C394F;
+}
+.footer-top ul li a:hover{
+	color: #fe7270;
+}
+.footer-top .subscribe-area{
+	text-align: center;
+}
+.footer-top .subscribe-area h2.title{
+	font: normal 600 40px/48px 'Work Sans', sans-serif;
+	padding-top: 4rem;
+}
+.footer-top .subscribe-area p.sub-title{
+	font: normal 400 16px/24px 'Work Sans', sans-serif;
+	padding: 1rem 0rem;
+	color: #2C394F;
+}
+.footer-top .subscribe-form{
+	padding-top: 2rem;
+}
+.footer-top .subscribe-form .input-group input{
+	border: none;
+	border-radius: 0;
+	border: 1px solid #e9e9e9;
+	border-right: 1px solid #33d2fd;
+	padding: 1.8rem 1rem;
+	outline: none;
+	font-size: 18px;
+}
+
+.footer-top .subscribe-form .input-group button{
+	padding: 0rem 3rem;
+	border-radius: 0;
+	border: none;
+	background: #33d2fd;
+	color: #fff;
+	outline: none;
+	font: normal 600 18px/26px 'Work Sans', sans-serif;
+	text-transform: uppercase;
+}
+.footer-top .subscribe-form .input-group button:hover{
+	filter: brightness(1.05);
+}
+
+.footer-bottom{
+	background: url('../img/appstore-bg.png') no-repeat;
+	background-size: cover;
+	padding: 1rem 10rem 0rem;
+	overflow: hidden;
+}
+.footer-bottom p{
+	font: normal 400 17px/20px 'Work Sans', sans-serif;
+	color: #fff;
+}
+.footer-bottom a{
+	color: #2C394F;
+}
+.footer-bottom .social-group{
+	float: right;
+	padding-bottom: .5rem;
+}
+.footer-bottom .social-group a{
+	display: inline-block;
+	background: #fff;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #33d2fd;
+	margin-left: 8px;
+}
+.footer-bottom .social-group a:hover{
+	background: linear-gradient(to bottom, #f8497a, #fe7270);
+	color: #fff;
+}
+/******** end footer area ********/
+

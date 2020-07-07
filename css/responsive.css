@@ -1,0 +1,397 @@
+
+/********** media query max-width 1280px ***********/
+@media (max-width: 1380px)
+{
+	/******** start header area ********/
+	.header-area{
+		padding: 2rem 0rem;
+	}
+	/******** end header area ********/
+
+	/******** start about-app area ********/
+	.about-app{
+		padding: 20rem 0rem 8rem;
+	} 
+	/******** end about-app area ********/
+	
+	/******** start about-service area ********/
+	.about-service{
+		padding: 8rem 10rem;
+	}
+	/******** end about-service area ********/
+
+	/******** start explain-area area ********/
+	.explain-area{
+		padding: 4rem 0rem;
+	}
+	/******** end explain-area area ********/
+
+	/******** start app-store area ********/
+	.app-store{
+		padding: 6rem;
+	}
+	/******** end app-store area ********/
+	
+	/******** start footer area ********/
+	.footer-area .footer-top{
+		padding: 4rem 0rem;
+	}
+	/******** end footer area ********/
+
+}
+
+/********** media query max-width 1280px ***********/
+@media (max-width: 1120px)
+{
+	/******** start header area ********/
+	.header-area{
+		padding: 1rem 0rem;
+		height: 880px;
+	}
+	.header-content{
+		margin-top: 8vh;
+	}
+	.header-content .title{
+		font: normal 700 45px/56px 'Work Sans', sans-serif;
+		padding-bottom: 0.5rem;
+	}
+	.header-content .sub-title{
+		font: normal 400 16px/20px 'Work Sans', sans-serif;
+		color: #fff;
+		padding-bottom: 1rem;
+	}
+	.header-content .header-button{
+		padding: 1.4rem 0;
+	}
+	.header-content .button-download{
+		font: normal 600 16px/24px 'Work Sans', sans-serif;
+	}
+	.header-content .button-contact{
+		font: normal 600 16px/24px 'Work Sans', sans-serif;
+	}
+	.header-content .header-mobile img{
+		margin: 2rem;
+	}
+
+	/******** end header area ********/
+
+	/******** start about-app area ********/
+	.about-app{
+		padding: 20rem 0rem 8rem;
+	}
+	.about-app .about-box{
+		padding: 0.2rem;
+		width: 220px;
+	}
+	.about-app .about-box img{
+		padding: 1rem;
+	}
+	.about-app .about-box h5.about-title{
+		font: normal 500 16px/24px 'Work Sans', sans-serif;
+		padding: 0.5rem;
+	}
+	.about-app .about-box p.para{
+		font: normal 400 15px/24px 'Work Sans', sans-serif;
+		color: #7e8099;
+	}
+	/******** end about-app area ********/
+	
+	/******** start about-service area ********/
+	.about-service{
+		padding: 8rem 10rem;
+	}
+	/******** end about-service area ********/
+	
+	/******** start about-service area ********/
+	.about-service{
+		padding: 6rem 0rem;
+	}
+	/******** end about-service area ********/
+
+	/******** start explain-area area ********/
+	.explain-area{
+		padding: 4rem 0rem;
+	}
+	/******** end explain-area area ********/
+
+	/******** start app-store area ********/
+	.app-store{
+		padding: 6rem 4rem;
+	}
+	/******** end app-store area ********/
+
+	/******** start get-button-area area ********/
+	.get-button-area .get-button .button{
+		padding: 0.8rem 4rem;
+		font: normal 600 16px/30px 'Work Sans', sans-serif;
+	}
+	/******** end get-button-area area ********/
+	
+	/******** start footer area ********/
+	.footer-area .footer-top{
+		padding: 4rem 0rem;
+	}
+	.footer-top h5.title{
+		font: normal 600 16px/24px 'Work Sans', sans-serif;
+		padding: 1rem 0;
+	}
+	.footer-top .subscribe-area h2.title{
+		font: normal 600 35px/45px 'Work Sans', sans-serif;
+		padding-top: 3rem;
+	}
+	.footer-top .subscribe-area p.sub-title{
+		font: normal 400 15px/24px 'Work Sans', sans-serif;
+		padding: 1rem 0rem;
+		color: #2C394F;
+	}
+	.footer-top .subscribe-form{
+		padding-top: 1rem;
+	}
+	.footer-top .subscribe-form .input-group input{
+		padding: 1.5rem 1rem;
+		font-size: 16px;
+	}
+	.footer-top .subscribe-form .input-group button{
+		padding: 0rem 2rem;
+		font: normal 600 18px/26px 'Work Sans', sans-serif;
+	}
+
+	.footer-bottom{
+		background: url('../img/appstore-bg.png') no-repeat;
+		background-size: cover;
+		padding: 1rem 1rem 0rem;
+		overflow: hidden;
+	}
+	.footer-bottom p{
+		font: normal 400 16px/20px 'Work Sans', sans-serif;
+	}
+	/******** end footer area ********/
+}
+
+
+/********** media query max-width 1280px ***********/
+@media (max-width: 1000px)
+{
+	/******** start header area ********/
+	.header-area{
+		padding: 0.4rem 0rem;
+	}
+	/* start navbar area */
+	.navbar-area .nav-item{
+		padding-left: 0rem;
+		text-align: center;
+	}
+	/* end navbar area */
+	/******** end header area ********/
+
+	/******** start about-app area ********/
+	.about-app{
+		padding: 16rem 0rem 8rem;
+	} 
+	.about-app .about-mobile img{
+		height: 400px;
+	}
+	.about-app .about-box{
+		margin: auto;
+		margin-bottom: 2rem;
+	}
+	.about-app .about-box.one{
+		margin: auto;
+	}
+	.about-app .about-box.four{
+		margin: auto;
+	}
+	/******** end about-app area ********/
+	
+	/******** start about-service area ********/
+	.about-service{
+		padding: 4rem 0rem;
+	}
+	.about-service-content{
+		padding: 0 1rem 0 0;
+		text-align: right;
+	}
+	/******** end about-service area ********/
+
+	/******** start explain-area area ********/
+	.explain-area{
+		padding: 2rem 0rem;
+	}
+	.explain-area .explain-content{
+		padding-left: 0rem;
+	}
+	/******** end explain-area area ********/
+
+	/******** start app-store area ********/
+	.app-store{
+		padding: 2rem 0rem;
+	}
+	.app-store .app-store-image img{
+		height: 400px;
+	}
+	.app-store .store-image img{
+		margin-bottom: 1rem;
+	}
+}
+
+/********** media query max-width 760px ***********/
+@media (max-width: 780px) {
+	/******** start header area ********/
+	.header-area{
+		height: 800px;
+	}
+	.header-content .title{
+		font: normal 700 32px/40px 'Work Sans', sans-serif;
+	}
+	.header-content .sub-title{
+		font: normal 400 15px/24px 'Work Sans', sans-serif;
+	}
+	.header-content .header-button{
+		padding: 1.5rem 0;
+	}
+	.header-content .button-download{
+		font: normal 600 16px/24px 'Work Sans', sans-serif;
+	}
+	.header-content .button-contact{
+		font: normal 600 16px/24px 'Work Sans', sans-serif;
+	}
+	/******** end header area ********/
+
+	/******** start about-app area ********/
+	.about-app{
+		padding: 12rem 0rem 4rem;
+	} 
+	.about-app .about-mobile img{
+		height: 280px;
+		padding-bottom: 2rem;
+	}
+	.about-app .about-box{
+		padding: 0.2rem;
+		width: 190px;
+	}
+	.about-app .about-box img{
+		padding: 1rem;
+	}
+	.about-app .about-box h5.about-title{
+		font: normal 500 15px/20px 'Work Sans', sans-serif;
+		padding: 0.3rem;
+	}
+	.about-app .about-box p.para{
+		font: normal 400 14px/22px 'Work Sans', sans-serif;
+		color: #7e8099;
+	}
+	/******** end about-app area ********/
+
+	/******** start about-service area ********/
+	.about-service{
+		padding: 2rem 0rem;
+	}
+	.about-service-content{
+		padding: 1rem;
+		text-align: left;
+	}
+	.about-service-content .title{
+		font: normal 600 28px/40px 'Work Sans', sans-serif;
+		padding: 1.2rem 0;
+	}
+	.about-service-content .para{
+		font: normal 400 15px/25px 'Work Sans', sans-serif;
+		margin-bottom: 3rem;
+	}
+	.about-service-content .button{
+		font: normal 500 16px/20px 'Work Sans', sans-serif;
+	}
+	.about-service .service-carousel{
+		margin-top: 2rem;
+	}
+	.service-carousel .card{
+		border-radius: 0;
+		margin-bottom: 1rem;
+		border: none;
+		box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.1);
+	}
+	.service-carousel button{
+		padding: 0.8rem;
+		font: normal 500 15px/24px 'Work Sans', sans-serif;
+	}
+	.service-carousel .card-body .para{
+		font: italic 400 15px/25px 'Work Sans', sans-serif;
+	}
+	/******** end about-service area ********/
+
+	/******** start explain-area area ********/
+	.explain-area{
+		padding: 2rem 0rem;
+	}
+	.explain-content .title{
+		font: normal 600 28px/40px 'Work Sans', sans-serif;
+		padding: 1rem 0;
+	}
+	.explain-content ul li{
+		margin: 0.6rem 0;
+	}
+	.explain-content .para{
+		font: normal 400 15px/26px 'Work Sans', sans-serif;
+		padding-top: 1rem;
+	}
+	/******** end explain-area area ********/
+	
+	/******** start app-store area ********/
+	.app-store .app-store-image img{
+		height: 260px;
+	}
+	.app-store-content{
+		text-align: center;
+	}
+	.app-store-content .title{
+		font: normal 600 28px/40px 'Work Sans', sans-serif;
+		padding: 1rem 0;
+	}
+	.app-store-content .para{
+		font: normal 400 15px/26px 'Work Sans', sans-serif;
+	}
+	.app-store-content .store-image{
+		padding: 2rem 0;
+	}
+	/******** end app-store area ********/
+
+	/******** start get-button-area area ********/
+	.get-button-area .get-button .button{
+		padding: 0.8rem 3rem;
+		margin-top: -1.6rem;
+		font: normal 600 15px/25px 'Work Sans', sans-serif;
+	}
+	/******** end get-button-area area ********/
+
+	/******** start footer area ********/
+	.footer-area .footer-top{
+		padding: 2rem 0rem;
+	}
+	.footer-top .subscribe-area h2.title{
+		font: normal 600 32px/40px 'Work Sans', sans-serif;
+		padding-top: 2rem;
+	}
+	.footer-top .subscribe-area p.sub-title{
+		font: normal 400 14px/24px 'Work Sans', sans-serif;
+	}
+	.footer-top .subscribe-form{
+		padding-top: 1rem;
+	}
+	.footer-top .subscribe-form .input-group input{
+		padding: 1.5rem 1rem;
+		font-size: 16px;
+	}
+	.footer-top .subscribe-form .input-group button{
+		padding: 0rem 1rem;
+		font: normal 600 15px/25px 'Work Sans', sans-serif;
+	}
+	.footer-bottom p{
+		font: normal 400 15px/20px 'Work Sans', sans-serif;
+		text-align: center;
+	}
+	.footer-bottom .social-group{
+		float: none;
+		text-align: center;
+	}
+
+}
