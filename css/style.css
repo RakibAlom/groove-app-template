@@ -108,6 +108,7 @@ ul{
 	position: relative;
 	z-index: 1;
 	text-align: center;
+	overflow: hidden;
 } 
 .about-app .about-box{
 	padding: 1rem 1rem;
@@ -368,4 +369,3 @@ ul{
 	color: #fff;
 }
 /******** end footer area ********/
-

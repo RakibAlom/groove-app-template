@@ -353,6 +353,9 @@
 	.app-store-content .store-image{
 		padding: 2rem 0;
 	}
+	.app-store-content .store-image img{
+		width: 120px;
+	}
 	/******** end app-store area ********/
 
 	/******** start get-button-area area ********/
@@ -394,4 +397,32 @@
 		text-align: center;
 	}
 
+}
+
+/********** media query max-width 760px ***********/
+@media (max-width: 600px){
+/******** start about-app area ********/
+	.about-app{
+		padding: 12rem 0rem 4rem;
+	} 
+	.about-app .about-mobile img{
+		height: 280px;
+		padding-bottom: 2rem;
+	}
+	.about-app .about-box{
+		padding: 2px;
+		width: 160px;
+	}
+	.about-app .about-box img{
+		padding: 0.5rem;
+	}
+	.about-app .about-box h5.about-title{
+		font: normal 500 14px/20px 'Work Sans', sans-serif;
+		padding: 2px;
+	}
+	.about-app .about-box p.para{
+		font: normal 400 13px/22px 'Work Sans', sans-serif;
+		color: #7e8099;
+	}
+	/******** end about-app area ********/
 }
